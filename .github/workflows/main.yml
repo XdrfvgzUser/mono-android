@@ -46,18 +46,19 @@ jobs:
       
       - name: autogene
         run: |
-          ./autogene.sh
+          /home/runner/work/mono-android/mono-android/autogene.sh
 
       - name: configure
 
         run: |
 
-          ./configure
+          /home/runner/work/mono-android/mono-android/configure
           
       - name: make
 
         run: |
 
+          cd /home/runner/work/mono-android/mono-android
           make
 
 
