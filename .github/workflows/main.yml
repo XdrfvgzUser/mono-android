@@ -46,6 +46,7 @@ jobs:
       
       - name: autogene
         run: |
+          ls -lR \
           /home/runner/work/mono-android/mono-android/autogene.sh
 
       - name: configure
